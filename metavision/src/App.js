@@ -21,10 +21,11 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About />} />
-            <Route path="/Project" element={<Product />} />
-            <Route path="/Facilities" element={<Review/>} />
-            <Route path="/Reviews" element={<Contact />} />
-            <Route path="/Gallery" element={<Blog/>} />
+            <Route path="/Product" element={<Product />} />
+            <Route path="/Review" element={<Review/>} />
+
+            <Route path="/Blog" element={<Blog/>} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

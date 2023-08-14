@@ -99,6 +99,16 @@ line-height: normal;
     align-items: center;
     gap: 0.94rem;
 }
+.btn{
+    background-color: #FE0000;
+    padding: 0.62rem 1.25rem;
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 
 
 
@@ -202,6 +212,9 @@ text-transform: capitalize;
     }
     #bttn{
         display: none   ;
+    }
+    .btn{
+        display: none ;
     }
     .main-head{
         position: relative;

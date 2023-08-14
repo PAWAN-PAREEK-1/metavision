@@ -33,23 +33,18 @@ const Navbar = () => {
             <NavLink to="/About">About us</NavLink>
           </li>
           <li>
-            <NavLink to="/Project">Projects</NavLink>
+            <NavLink to="/Product">Products & Services</NavLink>
           </li>
           <li>
-            <NavLink to="/Facilities">Facilities</NavLink>
+            <NavLink to="/Review">Reviews</NavLink>
           </li>
           <li>
-            <NavLink to="/Reviews">Reviews</NavLink>
+            <NavLink to="/Blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="/Gallery">Gallery</NavLink>
+            <NavLink to="/Contact">Contact us</NavLink>
           </li>
-          <li>
-            <NavLink to="/Faqs">FAQs</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Contact">Contact Us</NavLink>
-          </li>
+
         </ul>
       </nav>
       {menuOpen && (
@@ -76,12 +71,7 @@ const Navbar = () => {
             <li>
               <NavLink to="/Gallery" onClick={closeMenu}>Gallery</NavLink>
             </li>
-            <li>
-              <NavLink to="/Faqs" onClick={closeMenu}>FAQs</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Contact" onClick={closeMenu}>Contact Us</NavLink>
-            </li>
+
           </ul>
         </div>
       )}

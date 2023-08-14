@@ -44,7 +44,9 @@ const Header = () => {
         <img src={logo} alt=""  id="logo"/>
         </NavLink>
         <Navbar/>
-        {/* <Button/> */}
+        <a href=""> <div className="btn">
+         GET Estimate
+        </div></a>
       </div>
     </header>
   );
