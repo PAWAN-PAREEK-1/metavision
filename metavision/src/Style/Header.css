@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .main-head {
     display: flex;
     justify-content: space-between;
-    padding: 1.25rem 3.25rem;
-    background: rgba(255, 255, 255, 0.80);
+    padding: 2rem 3.25rem;
+    background: #fff;
     backdrop-filter: blur(12.5px);
     align-items: center;
 }
@@ -22,18 +27,17 @@ a {
 }
 
 .NavbarList li a {
-    color:  #333;
-font-family: var(--Poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: capitalize;
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
 .NavbarList li a:hover {
-    color: #BA9778;
+    color: #FE0000;
 }
 
 .NavbarList {
@@ -50,19 +54,19 @@ text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.81rem 3.5rem;
-    background-color: #191919;
+    padding: 1.06rem 3.5rem;
+    background-color: #fff;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .head h1 {
-    color: #FFF;
-    text-align: center;
-    font-family: var(--Poppins);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
+    color: #333;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .headmail {
@@ -74,7 +78,7 @@ text-transform: capitalize;
 .info a {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.63rem;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -85,11 +89,16 @@ text-transform: capitalize;
     text-transform: capitalize;
 }
 
-hr {
-    width: 0.0625rem;
-    height: 1.5rem;
-}
 
+.info1{
+    margin-right: 2.5rem;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.94rem;
+}
 
 
 
@@ -110,13 +119,108 @@ hr {
         align-items: center;
         justify-content: space-between;
         padding: 0.75rem 0.94rem;
-        background-color: #191919;
+
     }
     .info h1,.headmail hr{
         display: none;
 
     }
   }
+
+
+
+
+
+
+/* Hamburger menu icon styles */
+.menuIcon {
+    display: none; /* Hide the menu icon on larger screens */
+    cursor: pointer;
+  }
+
+  /* Bar styles for hamburger menu icon */
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+.menuIcon {
+    display: none;
+}
+.mobileNav{
+    height:100vh ;
+    width: 100%;
+    position:fixed !important;
+    background-color: #BA9778;
+   right: 0 !important;
+   z-index: 99999 !important;
+   left: 0 !important;
+   top: 0 !important;
+   bottom: 0 !important;
+   color: black;
+
+
+}
+.mobileNav ul li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+.mobileNav ul li a {
+
+    color: var(--black-2, #333);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.main-head nav{
+    z-index: 99999999;
+}
+.mobileNav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media (max-width:768px) {
+
+    .NavbarList{
+        display: none !important;
+    }
+    .menuIcon {
+        display: block;
+    }
+    #bttn{
+        display: none   ;
+    }
+    .main-head{
+        position: relative;
+        z-index: 99;
+    }
+    .main-head{
+        padding: 0.94rem !important ;
+    }
+    #logo{
+        width: 50%;
+    }
+    .closebtn img{
+        width: 12%;
+        padding: 20px 0 0 20px;
+        cursor: pointer;
+    }
+
+
+}
 
 
 
