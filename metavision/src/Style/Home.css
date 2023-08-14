@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: #FE0000;
+    padding: 0.94rem 1.5rem;
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.main{
+    position: relative;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3.25rem;
+    background: #2E2E36;
+
+}
+.hero-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 0.62rem;
+}
+.hero-detail h2{
+
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.hero-detail h1{
+
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 3.263rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4.85rem;
+
+}
+.hero-detail h3{
+
+    color: #F3EFEF;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero-work{
+    display: flex;
+    align-items: center;
+    gap: 2.81rem;
+    padding-top: 1.56rem;
+
+}
+.hero-work-2{
+    display: flex;
+    align-items: center;
+    gap: 0.62rem;
+}
+.hero-work-2 h4{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.heroimg img{
+    width: 100%;
+    background-image: url(../assets/img/round1.png),url(../assets/img/earth.png);
+    background-size: cover;
+
+}
+
+.exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+   width: 100%;
+   position: absolute;
+   bottom: -118px;
+
+
+}
+.exp-box{
+    padding: 2rem;
+    background: #FFF;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+width: 20.375rem;
+
+}
+.exp-box h1{
+    color: #FE0000;
+font-family: Poppins;
+font-size: 3.4375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.exp-box h2{
+    color: #7A7A7A;
+
+/* Text Medium 1 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
