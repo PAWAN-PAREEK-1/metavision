@@ -1,0 +1,64 @@
+.contact{
+    padding: 3.25rem;
+    background-image: url(../assets/img/contactbg.svg);
+    display: flex;
+    gap: 2.25rem;
+    margin-top: 3.25rem;
+    justify-content: space-between;
+
+}
+.con-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.56rem;
+    padding-top: 3.13rem;
+}
+.contact-left span{
+    color: #DD5471;
+}
+.contact-left h1{
+    color: var(--black, #000);
+
+/* H2 */
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.contact-left p{
+    color: var(--lite-black, #7F7F7F);
+
+/* H4 */
+font-family: Poppins;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+input,textarea{
+    border: 0.1px solid #7F7F7F;
+    padding: 1.37rem 1.88rem;
+    border-radius: 0.625rem;
+background: var(--white, #FFF);
+}
+input::placeholder,textarea::placeholder{
+    color: var(--lite-black, #7F7F7F);
+font-family: Poppins;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+iframe{
+    width: 40.4375rem;
+height:52rem;
+ border:0;
+  allowfullscreen:"";
+   loading:"lazy";
+   referrerpolicy:"no-referrer-when-downgrade";
+}
+.contact-left,.contact-right{
+    flex: 1;
+
+}
