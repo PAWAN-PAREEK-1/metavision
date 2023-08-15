@@ -1,50 +1,62 @@
-
-
-
-
 import React, { useState } from "react";
 import "../Style/Services.css";
 import "../Style/Global.css";
 import services1 from "../assets/img/s1.svg";
+import services2 from "../assets/img/s2.svg";
+import services3 from "../assets/img/s3.svg";
 import arrow from "../assets/img/rightDoubleArrow.svg";
 
 const serviceData = [
     {
-      serimg: services1,
-      name: "MIS Consultation",
-      points: [
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
+        serimg: services1,
+        name: "MIS Consultation",
+        points: [
+          "Real time Data from Tally ERP9",
+          "Export Reports in Excel/Pdf/Html",
+          "Group Company Reporting",
+          "Customize reports",
+          "Mis Consultant Services",
 
-      ],
-    },
-    {
-      serimg: services1,
-      name: "MIS Consultation",
-      points: [
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
+        ],
+      },
+      {
+        serimg: services2,
+        name: "Tally Services",
+        points: [
+          "Tally Customization",
+          "Tally Integration",
+          "Tally Training & Implementation",
+          "Tally AMC",
+          "Tally and more",
 
-      ],
-    },
-    {
-      serimg: services1,
-      name: "MIS Consultation",
-      points: [
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
-        "Real time Data from Tally ERP9",
+        ],
+      },
 
-      ],
-    },
+      {
+        serimg: services3,
+        name: "Payroll Outsourcing",
+        points: [
+          "Manage the process",
+          "Evaluate the employees",
+          "Promote, demote, or terminate",
+          "Increased ROI",
 
 
-  ];
+        ],
+      },
+      {
+        serimg: services2,
+        name: "Tally Services",
+        points: [
+          "Tally Customization",
+          "Tally Integration",
+          "Tally Training & Implementation",
+          "Tally AMC",
+          "Tally and more",
+
+        ],
+      },
+];
 
 const Services = () => {
   const itemsPerGroup = 3;
@@ -75,10 +87,10 @@ const Services = () => {
               <div className="serv-detail">
                 <h4>{service.name}</h4>
                 {service.points.map((point, pointIndex) => (
-                  <h5 key={pointIndex}>
+                  <div className="point" key={pointIndex}>
                     <img src={arrow} alt="" />
-                    {point}
-                  </h5>
+                    <h5>{point}</h5>
+                  </div>
                 ))}
               </div>
             </div>
@@ -100,4 +112,3 @@ const Services = () => {
 };
 
 export default Services;
-
