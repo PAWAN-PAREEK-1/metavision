@@ -26,6 +26,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
     gap: 1.25rem;
     flex-wrap: wrap;
     padding-top: 2.06rem;
+    justify-content: center;
 
 }
 
@@ -81,4 +82,88 @@ padding-bottom: 0.63rem;
 
   .circel span.active {
     background-color: red;
+  }
+
+
+
+  /* blog section */
+
+
+
+  .blog{
+    padding: 0.94rem;
+    border-radius: 0.9375rem;
+background: var(--white, #FFF);
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+width: 32%;
+margin-top:3.13rem ;
+  }
+  .blog-p-img{
+    border-radius: 50%;
+  }
+  .blog-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .name-img{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+  }
+  .blog p{
+    padding: 0 !important;
+  }
+  .blog-img img{
+    width: 100%;
+  }
+  .blog-detail h2{
+    color: var(--black, #1F1F1F);
+    padding-top: 0.62rem;
+/* H3 */
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .blog-detail p{
+    color: var(--lite-black, #7F7F7F);
+
+/* H5 */
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+padding-block: 0.62rem !important;
+  }
+  .blog-p-name h3{
+    color: #000;
+
+/* Sub 1 */
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .blog-p-name h5{
+    color: #000;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+  .blog-name h2{
+    color: #000;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
   }
