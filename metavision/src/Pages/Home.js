@@ -7,6 +7,7 @@ import "../Style/Home.css";
 import chart from "../assets/img/chart.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const AboutUs = lazy(() => import("../Components/AboutUs"));
+const Product = lazy(() => import("../Components/Product"));
 
 const Home = () => {
   return (
@@ -74,6 +75,7 @@ const Home = () => {
 
 
         <AboutUs/>
+        <Product/>
       </div>
 
 
