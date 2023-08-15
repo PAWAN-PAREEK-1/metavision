@@ -10,6 +10,7 @@ const AboutUs = lazy(() => import("../Components/AboutUs"));
 const Product = lazy(() => import("../Components/Product"));
 const Services = lazy(() => import("../Components/Services"));
 const Blog = lazy(() => import("../Components/Blog"));
+const MetaVision = lazy(() => import("../Components/MetaVision"));
 
 const Home = () => {
   return (
@@ -80,6 +81,7 @@ const Home = () => {
         <Product/>
         <Services/>
         <Blog/>
+        <MetaVision/>
       </div>
 
 
