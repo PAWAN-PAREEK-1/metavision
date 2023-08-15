@@ -6,6 +6,7 @@ import women from "../assets/img/women.png";
 import "../Style/Home.css";
 import chart from "../assets/img/chart.svg";
 const Loading = lazy(() => import("../Components/Loading"));
+const AboutUs = lazy(() => import("../Components/AboutUs"));
 
 const Home = () => {
   return (
@@ -70,7 +71,12 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+
+        <AboutUs/>
       </div>
+
+
     </Suspense>
   );
 };
