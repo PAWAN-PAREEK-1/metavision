@@ -93,8 +93,8 @@ line-height: 1.15rem; /* 100% */
 .help-right span{
     color: var(--red, #FF3E54);
 }
-element {
-	
+.about-right {
+
 	display: flex;
 	flex-direction: column;
 	gap: 8px;

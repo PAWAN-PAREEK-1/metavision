@@ -8,6 +8,7 @@ import chart from "../assets/img/chart.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const AboutUs = lazy(() => import("../Components/AboutUs"));
 const Product = lazy(() => import("../Components/Product"));
+const Services = lazy(() => import("../Components/Services"));
 
 const Home = () => {
   return (
@@ -76,6 +77,7 @@ const Home = () => {
 
         <AboutUs/>
         <Product/>
+        <Services/>
       </div>
 
 

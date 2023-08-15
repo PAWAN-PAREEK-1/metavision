@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/Product.css";
+import "../Style/Global.css";
 import product1 from "../assets/img/p1.svg";
 import product2 from "../assets/img/p2.svg";
 import product3 from "../assets/img/p3.svg";
