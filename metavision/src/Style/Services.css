@@ -58,15 +58,23 @@ font-weight: 600;
 line-height: normal;
 padding-bottom: 0.63rem;
 }
+/* Services.css or Global.css */
+
 .circel {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.circel span.active, .circel span:active {
-    background-color: #ba9778;
-}
-span {
-    color: #ba9778;
-}
+    margin-top: 20px;
+  }
+
+  .circel span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .circel span.active {
+    background-color: red;
+  }

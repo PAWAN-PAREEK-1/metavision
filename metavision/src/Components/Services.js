@@ -1,48 +1,62 @@
-import React from "react";
+
+
+
+
+import React, { useState } from "react";
 import "../Style/Services.css";
 import "../Style/Global.css";
 import services1 from "../assets/img/s1.svg";
 import arrow from "../assets/img/rightDoubleArrow.svg";
 
 const serviceData = [
-  {
-    serimg: services1,
-    name: "MIS Consultation",
-    points: [
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
+    {
+      serimg: services1,
+      name: "MIS Consultation",
+      points: [
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
 
-    ],
-  },
-  {
-    serimg: services1,
-    name: "MIS Consultation",
-    points: [
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
+      ],
+    },
+    {
+      serimg: services1,
+      name: "MIS Consultation",
+      points: [
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
 
-    ],
-  },
-  {
-    serimg: services1,
-    name: "MIS Consultation",
-    points: [
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
-      "Real time Data from Tally ERP9",
+      ],
+    },
+    {
+      serimg: services1,
+      name: "MIS Consultation",
+      points: [
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
+        "Real time Data from Tally ERP9",
 
-    ],
-  },
+      ],
+    },
 
 
-];
+  ];
 
 const Services = () => {
+  const itemsPerGroup = 3;
+  const totalGroups = Math.ceil(serviceData.length / itemsPerGroup);
+
+  const [activeGroup, setActiveGroup] = useState(0);
+
+  const visibleServices = serviceData.slice(
+    activeGroup * itemsPerGroup,
+    (activeGroup + 1) * itemsPerGroup
+  );
+
   return (
     <div>
       <div className="product serv">
@@ -55,7 +69,7 @@ const Services = () => {
         </p>
 
         <div className="service-box">
-          {serviceData.map((service, index) => (
+          {visibleServices.map((service, index) => (
             <div className="sevices" key={index}>
               <img src={service.serimg} alt="" id="serimg" />
               <div className="serv-detail">
@@ -70,11 +84,20 @@ const Services = () => {
             </div>
           ))}
         </div>
+      </div>
 
-
+      <div className="circel">
+        {Array.from({ length: totalGroups }, (_, i) => (
+          <span
+            className={activeGroup === i ? "active" : ""}
+            onClick={() => setActiveGroup(i)}
+            key={i}
+          ></span>
+        ))}
       </div>
     </div>
   );
 };
 
 export default Services;
+
