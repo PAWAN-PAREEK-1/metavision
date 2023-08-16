@@ -8,18 +8,15 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   const closeMenu = () => {
     setMenuOpen(false);
   };
 
-
   return (
     <div>
       <nav>
-        <div
-          className={`menuIcon ${menuOpen ? "open" : ""}`}
-          onClick={toggleMenu}
-        >
+        <div className={`menuIcon ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
           <div className="bar1"></div>
           <div className="bar2"></div>
           <div className="bar3"></div>
@@ -27,51 +24,73 @@ const Navbar = () => {
 
         <ul className="NavbarList ">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink exact to="/" activeClassName="active" onClick={closeMenu}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/About">About us</NavLink>
+            <NavLink to="/About" activeClassName="active" onClick={closeMenu}>
+              About us
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/Product">Products & Services</NavLink>
+            <NavLink to="/Product" activeClassName="active" onClick={closeMenu}>
+              Products & Services
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/Review">Reviews</NavLink>
+            <NavLink to="/Review" activeClassName="active" onClick={closeMenu}>
+              Reviews
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/Blog">Blog</NavLink>
+            <NavLink to="/Blog" activeClassName="active" onClick={closeMenu}>
+              Blog
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/Contact">Contact us</NavLink>
+            <NavLink to="/Contact" activeClassName="active" onClick={closeMenu}>
+              Contact us
+            </NavLink>
           </li>
-
         </ul>
       </nav>
       {menuOpen && (
         <div className="mobileNav">
           <div className="closebtn" onClick={() => setMenuOpen(false)}>
-          <img src="../public/assets/img/close.svg" alt="" />
+            <img src="../public/assets/img/close.svg" alt="" />
           </div>
           <ul>
             <li>
-              <NavLink to="/" onClick={closeMenu}>Home</NavLink>
+              <NavLink exact to="/" activeClassName="active" onClick={closeMenu}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/About"onClick={closeMenu}>About us</NavLink>
+              <NavLink to="/About" activeClassName="active" onClick={closeMenu}>
+                About us
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Project" onClick={closeMenu}>Projects</NavLink>
+              <NavLink to="/Project" activeClassName="active" onClick={closeMenu}>
+                Projects
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Facilities" onClick={closeMenu}>Facilities</NavLink>
+              <NavLink to="/Facilities" activeClassName="active" onClick={closeMenu}>
+                Facilities
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Reviews" onClick={closeMenu}>Reviews</NavLink>
+              <NavLink to="/Reviews" activeClassName="active" onClick={closeMenu}>
+                Reviews
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Gallery" onClick={closeMenu}>Gallery</NavLink>
+              <NavLink to="/Gallery" activeClassName="active" onClick={closeMenu}>
+                Gallery
+              </NavLink>
             </li>
-
           </ul>
         </div>
       )}
