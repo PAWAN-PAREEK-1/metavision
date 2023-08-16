@@ -67,3 +67,43 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
+@media (max-width: 768px){
+    .testi{
+        margin-top: 2rem;
+        padding: 1.56rem 0.96rem !important;
+    }
+    .testi p{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .testi-box h2{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .testi-detail h3{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .testi-detail h5{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .testi-box{
+        min-width: 100%;
+    }
+    .testimonial {
+        padding-block: 1rem;
+        justify-content: initial;
+        overflow: auto;
+    }
+    #testi{
+        display: none;
+    }
+    .testi-detail{
+        padding-top: 1rem;
+    }
+}

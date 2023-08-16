@@ -102,3 +102,60 @@ padding: 0 !important;
 #line{
     padding-block: 1.56rem;
 }
+
+
+@media (max-width: 768px){
+    .product{
+        padding: 1.56rem 0.96rem;
+    }
+    .product h3{
+font-size: 1rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .product h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .product p{
+        padding-inline: 0;
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .product-range{
+        padding-top: 1rem;
+        flex-wrap: nowrap;
+    }
+    .pro-head h1{
+font-size: 3.125rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .pro-box{
+        padding: 0.94rem;
+    }
+    .pro-box h2{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+padding-top: 0.94rem;
+    }
+    #line{
+        width: 5rem;
+        padding-block: 0.5rem;
+    }
+    .pro-box p{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .product-range{
+        overflow: auto;
+    }
+    .pro-box{
+        min-width: 100%;
+        height: max-content;
+    }
+}

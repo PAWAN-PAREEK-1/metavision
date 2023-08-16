@@ -37,7 +37,7 @@ const Home = () => {
               </h3>
               <div className="hero-work">
                 <a href="">
-                  <div className="btn">GET Estimate</div>
+                  <div className="btn">Explore Now</div>
                 </a>
 
                 <div className="hero-work-2">

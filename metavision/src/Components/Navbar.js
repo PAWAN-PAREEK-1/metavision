@@ -24,32 +24,32 @@ const Navbar = () => {
 
         <ul className="NavbarList ">
           <li>
-            <NavLink exact to="/" activeClassName="active" onClick={closeMenu}>
+            <NavLink exact to="/" activeclassname="active" onClick={closeMenu}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/About" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/About" activeclassname="active" onClick={closeMenu}>
               About us
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Product" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/Product" activeclassname="active" onClick={closeMenu}>
               Products & Services
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Review" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/Review" activeclassname="active" onClick={closeMenu}>
               Reviews
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Blog" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/Blog" activeclassname="active" onClick={closeMenu}>
               Blog
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Contact" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/Contact" activeclassname="active" onClick={closeMenu}>
               Contact us
             </NavLink>
           </li>
@@ -62,32 +62,32 @@ const Navbar = () => {
           </div>
           <ul>
             <li>
-              <NavLink exact to="/" activeClassName="active" onClick={closeMenu}>
+              <NavLink exact to="/" activeclassname="active" onClick={closeMenu}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/About" activeClassName="active" onClick={closeMenu}>
+              <NavLink to="/About" activeclassname="active" onClick={closeMenu}>
                 About us
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Project" activeClassName="active" onClick={closeMenu}>
+              <NavLink to="/Project" activeclassname="active" onClick={closeMenu}>
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Facilities" activeClassName="active" onClick={closeMenu}>
+              <NavLink to="/Facilities" activeclassname="active" onClick={closeMenu}>
                 Facilities
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Reviews" activeClassName="active" onClick={closeMenu}>
+              <NavLink to="/Reviews" activeclassname="active" onClick={closeMenu}>
                 Reviews
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Gallery" activeClassName="active" onClick={closeMenu}>
+              <NavLink to="/Gallery" activeclassname="active" onClick={closeMenu}>
                 Gallery
               </NavLink>
             </li>

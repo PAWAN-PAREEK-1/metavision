@@ -125,3 +125,39 @@ line-height: normal;
 }
 
 
+@media (max-width: 768px){
+    .hero-detail h2{
+font-size: 0.75rem;
+font-weight: 500;
+    }
+    .hero{
+        padding: 0.94rem    ;
+    }
+    /* #line{
+        width: 17%;
+    } */
+    .hero-detail h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .hero-detail h3{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .hero-work-2 h4{
+font-size: 0.9375rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .exp{
+        display: none;
+    }
+    .hero{
+        margin: 0;
+    }
+   
+  }
+
+

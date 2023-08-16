@@ -188,3 +188,73 @@
     font-weight: 300;
     line-height: normal;
 }
+
+
+@media (max-width: 768px){
+    .serv p{
+            padding-inline: 0 !important;
+    }
+    .service-box{
+        padding-block: 1rem;
+    }
+    .serv-detail h4{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .point h5{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .point img{
+        width: 1.125rem;
+    }
+    .serv-detail{
+        padding: 0.94rem;
+    }
+    .sevices{
+        min-width: 100%;
+    }
+    .service-box{
+        overflow: auto;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: initial;
+    }
+    .blog{
+        margin-top: 1rem;
+        min-width: 100%;
+        flex-direction: column;
+    }
+    .blog-detail h2{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .blog-detail p{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .blog-p-name h3{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .blog-p-name h5{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .blog-name h2{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .blog-box {
+        justify-content: initial;
+        overflow: auto;
+    }
+   
+}

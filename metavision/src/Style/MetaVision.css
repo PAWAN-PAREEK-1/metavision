@@ -44,3 +44,34 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+
+@media (max-width: 768px){
+    .meta{
+        margin-top: 0;
+        padding: 1.56rem 0.96rem !important;
+    }
+    .meta p{
+        padding-inline: 0;
+    }
+    .meta-box img{
+        width: 50%;
+    }
+    .meta-box h3{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .meta-box{
+        min-width: 100%;
+    }
+    .metavision {
+        margin-top: 3.13rem;
+        display: flex;
+        justify-content: initial;
+        gap: 1.25rem;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        overflow: auto;
+    }
+}

@@ -122,3 +122,20 @@ line-height: 1.375rem; /* 157.143% */
 
 
   }
+
+
+  @media (max-width: 768px){
+    footer{
+        margin-top: 1rem;
+    }
+    .footer-main{
+        padding: 0.94rem;
+    }
+    .footer-main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons{
+        justify-content: center;
+    }
+  }
