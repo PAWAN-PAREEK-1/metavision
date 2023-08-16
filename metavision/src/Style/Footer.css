@@ -1,47 +1,7 @@
-/*
-.footer {
-    padding: 1.25rem;
-    background-color: black;
-    color: white;
-  }
 
-  .column {
-    flex: 1;
-  }
-
-  .logo {
-    width: 3.125rem;
-    margin-bottom: 0.625rem;
-  }
-
-  .social-icons {
-    display: flex;
-  }
-
-  .social-icon {
-    margin-right: 0.625rem;
-  }
-
-  .address-link,
-  .contact-link {
-    color: white;
-    text-decoration: underline;
-  }
-
-  .newsletter-input {
-    width: 80%;
-    padding: 0.3125rem;
-  }
-
-  .newsletter-button {
-    background-color: red;
-    color: white;
-    padding: 0.3125rem 0.625rem;
-    border: none;
-  } */
 
   footer{
-
+    margin-top: 6.25rem;
     background: var(--black, #1F1F1F);
     background-image: url(../assets/img/footerbg.svg);
     background-repeat: no-repeat;

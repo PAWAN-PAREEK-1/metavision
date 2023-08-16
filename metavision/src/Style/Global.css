@@ -7,7 +7,7 @@
 .hero-all h4{
     color: #FFF;
 font-family: Poppins;
-font-size: 3.6875rem;
+font-size: 3.288rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -15,4 +15,46 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 gap: 1.25rem    ;
+}
+.aboutus-news{
+    padding: 6.25rem 3.25rem;
+}
+.aboutnews{
+    padding-top: 3.12rem;
+}
+.about-up{
+    display: flex;
+    align-items: center;
+    gap: 3.12rem;
+}
+.about-up h2{
+    color: #000;
+font-family: Poppins;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.about-up-head h3{
+    color: var(--black, #1F1F1F);
+
+/* H3 */
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 1.56rem;
+}
+.about-down{
+    padding: 1.25rem;
+    color: var(--lite-black, #7F7F7F);
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 0.9375rem;
+background: #F7F7F7;
+margin-top:1.19rem ;
 }
