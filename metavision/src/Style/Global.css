@@ -24,6 +24,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 gap: 1.25rem    ;
+z-index: 1;
 }
 .aboutus-news{
     padding: 6.25rem 3.25rem;

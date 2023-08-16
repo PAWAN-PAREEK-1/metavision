@@ -27,7 +27,7 @@
 background: var(--white, #FFF);
 position: relative;
 }
-.testi-box p{
+.testi-box h2{
     color: #7A7A7A;
 font-family: Poppins;
 font-size: 1.05rem;

@@ -61,7 +61,7 @@ const Testimonial = () => {
              <div className="testi-box" key={index}>
              <img src={testi} alt="" id="testi" />
              <div className="testimonial-main-box">
-               <p>{testimonial.text}</p>
+               <h2>{testimonial.text}</h2>
                <div className="testi-detail">
                  <div className="testi-img">
                    <img src={blog4} alt="" />
