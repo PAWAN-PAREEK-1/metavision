@@ -22,10 +22,10 @@ const Review = () => {
         <div className="hero-all">
           <h4>
             {" "}
-            <img src={bigline} alt="" id="hero-bg" />
+            <img src={bigline} alt="" />
             REVIEWS
           </h4>
-          <img src={herobg} alt="" />
+          <img src={herobg} alt="" id="hero-bg" />
         </div>
 
         <Testimonial/>

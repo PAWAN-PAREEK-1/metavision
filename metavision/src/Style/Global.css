@@ -78,3 +78,58 @@ background: var(--red, #FF3E54);
 padding: 0.9375rem 1.875rem;
 cursor: pointer;
 }
+
+
+
+
+.contact-page{
+    flex-direction: column;
+    background: none;
+
+}
+
+.iframe2{
+    width: 100% ;
+    height: 25.9375rem ;
+    margin-top: 6.25rem;
+}
+.contact-left2{
+    width: 50%;
+    text-align: center;
+    display: flex ;
+    align-self: center;
+
+    justify-content: center ;
+}
+.btn-contact{
+    width: 100% !important;
+}
+.address{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3.13rem;
+}
+.add{
+    flex: 1;
+
+}
+.add h2{
+    color: var(--red, #FF3E54);
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 1.25rem;
+}
+.add p{
+    color: var(--lite-black, #7F7F7F);
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
