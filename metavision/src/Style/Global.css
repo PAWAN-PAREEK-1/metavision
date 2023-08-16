@@ -1,0 +1,18 @@
+.hero-all{
+    background: #2E2E36;
+    display: flex;
+    align-items: center;
+
+}
+.hero-all h4{
+    color: #FFF;
+font-family: Poppins;
+font-size: 3.6875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 1.25rem    ;
+}
