@@ -31,7 +31,7 @@ line-height: normal;
 padding-inline: 16rem;
 }
 .product{
-    padding: 6.25rem 3.25rem 0;
+    padding: 6.25rem 3.25rem ;
     display: flex;
     flex-direction: column;
     gap: 0.62rem;

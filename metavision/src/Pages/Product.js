@@ -54,7 +54,7 @@ const Product = () => {
             <img src={bigline} alt="" />
             PRODUCTS & SERVICES
           </h4>
-          <img src={herobg} alt="" />
+          <img src={herobg} alt=""id="hero-bg" />
         </div>
 
         <div className="aboutus-news">

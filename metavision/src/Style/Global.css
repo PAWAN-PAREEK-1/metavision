@@ -2,6 +2,15 @@
     background: #2E2E36;
     display: flex;
     align-items: center;
+    position: relative;
+    height: 25rem;
+
+
+}
+#hero-bg{
+    position: absolute;
+    right: 0;
+
 
 }
 .hero-all h4{
@@ -57,4 +66,15 @@ line-height: normal;
 border-radius: 0.9375rem;
 background: #F7F7F7;
 margin-top:1.19rem ;
+}
+
+
+.blog-box2{
+    flex-wrap: wrap;
+}
+.load-more-button{
+    border-radius: 0.3125rem;
+background: var(--red, #FF3E54);
+padding: 0.9375rem 1.875rem;
+cursor: pointer;
 }

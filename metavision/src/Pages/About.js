@@ -26,7 +26,7 @@ const About = () => {
             <img src={bigline} alt="" />
             About Us
           </h4>
-          <img src={herobg} alt="" />
+          <img src={herobg} alt=""id="hero-bg" />
         </div>
 
         <AboutUs/>

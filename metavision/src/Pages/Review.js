@@ -3,13 +3,11 @@ import "../Style/Global.css";
 import bigline from "../assets/img/bigline.svg";
 import herobg from "../assets/img/herobg.svg";
 const Loading = lazy(() => import("../Components/Loading"));
-const AboutUs = lazy(() => import("../Components/AboutUs"));
-const Product = lazy(() => import("../Components/Product"));
-const Services = lazy(() => import("../Components/Services"));
+
 const Blog = lazy(() => import("../Components/Blog"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
 const Testimonial = lazy(() => import("../Components/Testimonial"));
-const Contact = lazy(() => import("../Components/Contact"));
+
 
 const Review = () => {
   return (
@@ -24,7 +22,7 @@ const Review = () => {
         <div className="hero-all">
           <h4>
             {" "}
-            <img src={bigline} alt="" />
+            <img src={bigline} alt="" id="hero-bg" />
             REVIEWS
           </h4>
           <img src={herobg} alt="" />
@@ -33,7 +31,7 @@ const Review = () => {
         <Testimonial/>
         <Blog/>
         <MetaVision/>
-        
+
       </div>
     </Suspense>
   );
