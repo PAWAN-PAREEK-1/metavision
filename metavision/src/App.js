@@ -11,6 +11,7 @@ const Contact = lazy(() => import('./Pages/Contact'));
 const Blog = lazy(() => import('./Pages/Blog'));
 const Product = lazy(() => import('./Pages/Product'));
 const Header = lazy(() => import('./Components/Header.js'));
+const Footer = lazy(() => import('./Components/Footer.js'));
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/Blog" element={<Blog/>} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
+          <Footer/>
         </Suspense>
       </BrowserRouter>
     </>
