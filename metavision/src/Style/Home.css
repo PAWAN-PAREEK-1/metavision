@@ -218,6 +218,25 @@ line-height: normal;
     #com{
         width: 20%;
     }
+    .hero-btn{
+        display: block;
+        color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .hero-work{
+        flex-direction: column;
+    }
+    .heroimg{
+        display: none;
+    }
+    .hero-work{
+        gap: 1.56rem;
+        padding-top: 0.7rem;
+    }
   }
 
 
