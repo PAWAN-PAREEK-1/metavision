@@ -3,7 +3,7 @@ import "../Style/Global.css";
 import bigline from "../assets/img/bigline.svg";
 import herobg from "../assets/img/herobg.svg";
 const Loading = lazy(() => import("../Components/Loading"));
-const AboutUs = lazy(() => import("../Components/AboutUs"));
+const AboutUs2 = lazy(() => import("../Components/AboutUs2"));
 
 const Blog = lazy(() => import("../Components/Blog"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
@@ -29,7 +29,7 @@ const About = () => {
           <img src={herobg} alt=""id="hero-bg" />
         </div>
 
-        <AboutUs/>
+        <AboutUs2/>
         <Blog/>
         <MetaVision/>
         <Testimonial/>
