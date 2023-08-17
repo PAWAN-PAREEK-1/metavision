@@ -82,7 +82,7 @@ line-height: normal;
 }
 .heroimg img{
     width: 100%;
-    background-image: url(../assets/img/round1.png),url(../assets/img/earth.png);
+   margin-bottom: -46px;
     background-size: cover;
 
 }
@@ -123,6 +123,46 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.monthly {
+	background: #fff;
+	position: absolute;
+	bottom: 8rem;
+	display: flex;
+	align-items: center;
+	padding: 0.8rem 3.5rem;
+	right: 6rem;
+}
+#com {
+	width: auto;
+	left: -41px;
+	position: absolute;
+	bottom: 58px;
+}
+.montly-img img{
+  width: fit-content;
+  margin: 0;
+
+}
+.monthly-detail h4{
+    color: var(--text-and-main-gray-2, #909090);
+
+/* Text 2 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.monthly-detail h3{
+    color: var(--text-and-main-black, #424241);
+
+/* Text Bold 1 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 
 @media (max-width: 768px){
@@ -157,7 +197,7 @@ line-height: normal;
     .hero{
         margin: 0;
     }
-   
+
   }
 
 

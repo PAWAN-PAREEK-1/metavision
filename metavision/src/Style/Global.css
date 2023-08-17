@@ -134,3 +134,70 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+
+@media (max-width: 768px){
+    #hero-bg{
+        width: 100%;
+    }
+    .hero-all h4{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .about-up-head h3{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 0;
+    }
+    .about-up-head img{
+        width: 4rem;
+    }
+    .about-up h2{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .aboutus-news{
+        padding: 0.94rem;
+    }
+    .about-down{
+        padding: 0.63rem;
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .about-up{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+    .contact-page{
+        flex-direction: column !important;
+        margin-top: 0 !important;
+        gap: 0 !important;
+
+    }
+    .contact-left2{
+        width: 100%;
+    }
+    .iframe2{
+        margin-top: 1.5rem;
+    }
+    .add h2{
+font-size: 1rem;
+font-weight: 500;
+line-height: normal;
+padding-block: 1rem;
+    }
+    .add p{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .address{
+        flex-direction: column;
+
+    }
+}

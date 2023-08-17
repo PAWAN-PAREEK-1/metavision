@@ -2,9 +2,10 @@ import React from "react";
 import { lazy, Suspense } from "react";
 import line from "../assets/img/line.svg";
 import play from "../assets/img/play.svg";
-import women from "../assets/img/women.png";
+import hero from "../assets/img/hero.svg";
 import "../Style/Home.css";
 import chart from "../assets/img/chart.svg";
+import com from "../assets/img/com.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const AboutUs = lazy(() => import("../Components/AboutUs"));
 const Product = lazy(() => import("../Components/Product"));
@@ -51,11 +52,18 @@ const Home = () => {
               </div>
             </div>
             <div className="heroimg">
-              <img src={women} alt="" />
-              {/* <div className="monthly">
-              <img src={chart} alt="" />
+              <img src={hero} alt="" />
+              <div className="monthly">
+                <div className="monthly-detail">
+                  <h4>Monthly Stats</h4>
+                  <h3>+25%</h3>
+                </div>
+                <div className="montly-img">
+                <img src={chart} alt="" />
+                </div>
+                <img src={com} alt="" id="com" />
 
-            </div> */}
+              </div>
             </div>
           </section>
           <div className="exp">
@@ -78,17 +86,14 @@ const Home = () => {
           </div>
         </div>
 
-
-        <AboutUs/>
-        <Product/>
-        <Services/>
-        <Blog/>
-        <MetaVision/>
-        <Testimonial/>
-        <Contact/>
+        <AboutUs />
+        <Product />
+        <Services />
+        <Blog />
+        <MetaVision />
+        <Testimonial />
+        <Contact />
       </div>
-
-
     </Suspense>
   );
 };

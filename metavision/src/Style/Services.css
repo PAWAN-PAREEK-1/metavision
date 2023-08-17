@@ -256,5 +256,8 @@ line-height: normal;
         justify-content: initial;
         overflow: auto;
     }
-   
+    .blog-detail p{
+        text-align: left !important;
+    }
+
 }
