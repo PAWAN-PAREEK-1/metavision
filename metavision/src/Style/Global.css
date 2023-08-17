@@ -200,4 +200,16 @@ line-height: normal;
         flex-direction: column;
 
     }
+    .hero-all{
+        height: 11rem;
+    }
+    #hero-bg{
+        right: -144px;
+    }
+    .hero-all h4 img{
+        width: 28%;
+    }
+    .hero-all h4{
+        justify-content: initial;
+    }
 }

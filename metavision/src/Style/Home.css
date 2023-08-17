@@ -197,7 +197,27 @@ line-height: normal;
     .hero{
         margin: 0;
     }
+    .monthly{
+        padding: 0.45rem 1.5rem;
+        display: none;
+    }
 
+    .monthly-detail h4{
+font-size: 0.33931rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .monthly-detail h3{
+font-size: 0.45238rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .montly-img img{
+        width: 38%;
+    }
+    #com{
+        width: 20%;
+    }
   }
 
 

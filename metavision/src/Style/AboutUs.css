@@ -161,6 +161,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+#mobile-hide{
+    display: none;
+}
 
 
 @media (max-width: 768px){
@@ -225,4 +228,50 @@ font-size: 0.875rem;
 font-weight: 400;
 line-height: normal;
     }
+    .about-sec h6{
+font-size: 1.25rem;
+padding-inline: 0;
+font-weight: 700;
+line-height: normal;
+    }
+    .about-sec{
+        margin-top: 2rem;
+    }
+    #about-head{
+        display: none;
+    }
+    .about-page2{
+        flex-direction: column;
+    }
+    #mobile{
+        display: none   ;
+    }
+    #mobile-hide{
+        display: block ;
+        color: var(--black, #1F1F1F);
+text-align: center;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-block: 1rem;
+    }
+    .vision{
+        padding: 0.96rem ;
+    }
+    .vision h1{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .vision p{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .mission{
+        flex-direction: column;
+    }
+
 }

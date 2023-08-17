@@ -12,14 +12,17 @@ const AboutUs = () => {
       <div className="about about-page">
         <div className="about-page2">
         <div className="mobile-about">
-          <h4>/ About Us /</h4>
-          <h3>
+          <h4 id="about-head">/ About Us / </h4>
+          <h3 id="mobile">
             UNLOCK THE TRUE POTENTIAL OF YOUR BUSINESS WITH METAVISION
             TECHNOLOGY
           </h3>
         </div>
         <div className="about-left">
           <img src={aboutsec} alt="" />
+          <h3 id="mobile-hide" >
+          THE MOST TRUSTED PROVIDER OF CUSTOMIZED BUSINESS SOLUTIONS
+          </h3>
           <p className="mobile-about">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -38,7 +41,7 @@ const AboutUs = () => {
               business solutions. Our team of experts understand our clients’
               requirements and customize solutions that can seamlessly integrate
               into business resulting in improved productivity and high return
-              on investment. 
+              on investment.
             </p>
           </div>
 
