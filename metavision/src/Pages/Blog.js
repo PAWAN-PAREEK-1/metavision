@@ -9,6 +9,7 @@ import bigline from "../assets/img/bigline.svg";
 import herobg from "../assets/img/herobg.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
+const Header = lazy(() => import('../Components/Header.js'));
 
 const Blogs = () => {
   const blogData = [ {
@@ -228,6 +229,7 @@ const Blogs = () => {
         </div>
       }
     >
+      <Header/>
       <div>
         <div className="hero-all">
           <h4>

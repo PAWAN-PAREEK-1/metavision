@@ -4,6 +4,7 @@ import "../Style/Contact.css";
 import bigline from "../assets/img/bigline.svg";
 import herobg from "../assets/img/herobg.svg";
 const Loading = lazy(() => import("../Components/Loading"));
+const Header = lazy(() => import('../Components/Header.js'));
 
 
 
@@ -19,6 +20,7 @@ const Contacts = () => {
         </div>
       }
     >
+      <Header/>
       <div>
         <div className="hero-all">
           <h4>

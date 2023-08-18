@@ -165,7 +165,11 @@ line-height: normal;
 #mobile-hide{
     display: none;
 }
-
+#chartbg {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
 
 @media (max-width: 768px){
     .about{
@@ -273,6 +277,9 @@ line-height: normal;
     }
     .mission{
         flex-direction: column;
+    }
+    #chartbg{
+        display: none;
     }
 
 }

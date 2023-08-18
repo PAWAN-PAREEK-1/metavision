@@ -14,6 +14,7 @@ const Blog = lazy(() => import("../Components/Blog"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
 const Testimonial = lazy(() => import("../Components/Testimonial"));
 const Contact = lazy(() => import("../Components/Contact"));
+const Header = lazy(() => import('../Components/Header.js'));
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
       }
     >
+      <Header/>
       <div>
         <div className="main">
           <section className="hero">

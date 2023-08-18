@@ -5,6 +5,7 @@ import herobg from "../assets/img/herobg.svg";
 import line from "../assets/img/breakline.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
+const Header = lazy(() => import('../Components/Header.js'));
 
 const Product = () => {
   const aboutData = [
@@ -47,6 +48,8 @@ const Product = () => {
         </div>
       }
     >
+
+      <Header />
       <div>
         <div className="hero-all">
           <h4>

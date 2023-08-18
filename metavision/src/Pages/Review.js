@@ -7,6 +7,7 @@ const Loading = lazy(() => import("../Components/Loading"));
 const Blog = lazy(() => import("../Components/Blog"));
 const MetaVision = lazy(() => import("../Components/MetaVision"));
 const Testimonial = lazy(() => import("../Components/Testimonial"));
+const Header = lazy(() => import('../Components/Header.js'));
 
 
 const Review = () => {
@@ -18,6 +19,7 @@ const Review = () => {
         </div>
       }
     >
+      <Header/>
       <div>
         <div className="hero-all">
           <h4>

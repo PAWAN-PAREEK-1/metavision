@@ -10,7 +10,7 @@ const Review = lazy(() => import('./Pages/Review'));
 const Contact = lazy(() => import('./Pages/Contact'));
 const Blog = lazy(() => import('./Pages/Blog'));
 const Product = lazy(() => import('./Pages/Product'));
-const Header = lazy(() => import('./Components/Header.js'));
+// const Header = lazy(() => import('./Components/Header.js'));
 const Footer = lazy(() => import('./Components/Footer.js'));
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Suspense fallback={<div><Loading/></div>}>
-          <Header />
+          {/* <Header /> */}
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About />} />
