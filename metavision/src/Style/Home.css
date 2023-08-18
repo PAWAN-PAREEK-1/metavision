@@ -22,9 +22,10 @@ line-height: normal;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 3.25rem;
+
     background: #2E2E36;
-    margin-bottom: 11rem;
+    margin-bottom: 15rem;
+    padding: 2.5rem 3.25rem 6rem;
 
 }
 .hero-detail{
@@ -80,11 +81,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.heroimg img{
-    width: 100%;
-   margin-bottom: -46px;
-    background-size: cover;
-
+.heroimg img {
+	width: 100%;
+	margin-bottom: -140px;
+	/* background-size: cover; */
+	margin-top: 9px;
 }
 
 .exp{
@@ -126,17 +127,19 @@ line-height: normal;
 .monthly {
 	background: #fff;
 	position: absolute;
-	bottom: 8rem;
+	bottom: 10rem;
 	display: flex;
 	align-items: center;
 	padding: 0.8rem 3.5rem;
 	right: 6rem;
 }
+
 #com {
 	width: auto;
 	left: -41px;
 	position: absolute;
-	bottom: 58px;
+	bottom: 13px;
+    margin-bottom: 0;
 }
 .montly-img img{
   width: fit-content;

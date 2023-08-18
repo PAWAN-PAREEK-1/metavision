@@ -1,7 +1,7 @@
 .testi{
     background-image: url(../assets/img/testibg.svg);
     margin-top: 6.25rem;
-    padding: 3.25rem;
+    padding: 5rem 3.25rem 3.5rem;
 }
 .testi p{
     font-size: 1.15rem;
@@ -9,7 +9,7 @@
 }
 
 .testimonial{
-    padding-block: 3.13rem;
+    padding: 3.13rem 3.13rem 1.63rem;
     display: flex;
     gap: 1.25rem;
     justify-content: space-evenly;

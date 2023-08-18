@@ -27,7 +27,7 @@ gap: 1.25rem    ;
 z-index: 1;
 }
 .aboutus-news{
-    padding: 6.25rem 3.25rem;
+    padding:3.13rem   3.25rem ;
 }
 .aboutnews{
     padding-top: 3.12rem;
@@ -86,6 +86,8 @@ cursor: pointer;
 .contact-page{
     flex-direction: column;
     background: none;
+    margin-top: 1.15rem !important;
+    padding-bottom: 0;
 
 }
 

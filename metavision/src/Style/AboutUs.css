@@ -5,13 +5,14 @@
 }
 .about{
 
-    padding: 6.13rem 3.25rem;
+    padding: 6.13rem 3.25rem 3.12rem;
     background: #F7F7F7;
     display: flex;
     gap: 1.25rem;
 }
 .about-page{
     display: block;
+    padding-block: 3.12rem;
 }
 .about-page2{
     display: flex;

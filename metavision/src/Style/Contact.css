@@ -1,9 +1,9 @@
 .contact{
-    padding: 3.25rem;
+    padding: 5.1rem;
     background-image: url(../assets/img/contactbg.svg);
     display: flex;
     gap: 2.25rem;
-    margin-top: 3.25rem;
+    margin-top: 6.25rem;
     justify-content: space-between;
 
 }
