@@ -72,6 +72,7 @@ margin-top:1.19rem ;
 
 .blog-box2{
     flex-wrap: wrap;
+    margin-top: 1.88rem;
 }
 .load-more-button{
     border-radius: 0.3125rem;
@@ -94,7 +95,7 @@ cursor: pointer;
 .iframe2{
     width: 100% ;
     height: 25.9375rem ;
-    margin-top: 6.25rem;
+    margin-top: 3.25rem;
 }
 .contact-left2{
     width: 50%;

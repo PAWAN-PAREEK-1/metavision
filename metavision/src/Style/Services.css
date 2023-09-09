@@ -107,7 +107,7 @@
     background: var(--white, #FFF);
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
     width: 32%;
-    margin-top: 3.13rem;
+    margin-top: 0rem;
 }
 
 .blog-p-img {
@@ -119,6 +119,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 0 0.94rem 0.94rem;
 }
 
 .name-img {
@@ -130,6 +131,9 @@
 
 .blog p {
     padding: 0 !important;
+}
+.blog-detail{
+    padding: 0.94rem 0.94rem 0;
 }
 
 .blog-img img {

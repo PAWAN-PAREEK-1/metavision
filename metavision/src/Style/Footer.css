@@ -122,6 +122,9 @@ line-height: 1.375rem; /* 157.143% */
 
 
   }
+  .newsletter-input{
+    padding: 1rem !important;
+  }
 
 
   @media (max-width: 768px){
