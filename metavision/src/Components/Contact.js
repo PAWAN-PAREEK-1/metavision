@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
         <div className="contact">
-            <div className="contact-left">
+            <div className="contact-left cls">
                 <h1>Get in <span>Touch</span> </h1>
                 <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
                 <div className="con-input">

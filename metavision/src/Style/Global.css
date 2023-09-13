@@ -216,3 +216,11 @@ line-height: normal;
         justify-content: initial;
     }
 }
+
+
+@media (min-width: 1900px) {
+    .aboutus-news{
+        padding-inline: 9.38rem;
+    }
+
+}

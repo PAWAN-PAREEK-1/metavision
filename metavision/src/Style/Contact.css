@@ -13,6 +13,7 @@
     flex-direction: column;
     gap: 1.56rem;
     padding-top: 3.13rem;
+    /* margin-bottom: 3.12rem; */
 }
 .contact-left span{
     color: #DD5471;
@@ -39,10 +40,13 @@ font-weight: 500;
 line-height: normal;
 }
 input,textarea{
-    border: 0.1px solid #7F7F7F;
+    border: 0.1px solid #f1f1f1;
     padding: 1.37rem 1.88rem;
     border-radius: 0.625rem;
 background: var(--white, #FFF);
+
+
+
 }
 input::placeholder,textarea::placeholder{
     color: var(--lite-black, #7F7F7F);
@@ -66,6 +70,9 @@ height:52rem;
 }
 .contact-page{
     box-shadow: none;
+}
+.cls{
+    margin-top: 2.69rem;
 }
 
 
@@ -100,4 +107,12 @@ line-height: normal;
         width: 100%;
         height: 100%;
     }
+}
+
+
+@media (min-width: 1900px) {
+    .contact{
+        padding-inline: 9.38rem;
+    }
+
 }

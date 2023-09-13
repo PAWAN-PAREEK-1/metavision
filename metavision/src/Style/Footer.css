@@ -80,6 +80,7 @@ line-height: 150%; /* 1.5rem */
     margin-top: 0.5rem;
     border: 1px solid var(--white, #FFF);
 background: var(--white, #FFF);
+border-radius: initial;
   }
   .column input::placeholder{
     color: var(--black, #1F1F1F) !important;
@@ -142,3 +143,13 @@ line-height: 1.375rem; /* 157.143% */
         justify-content: center;
     }
   }
+
+
+
+
+  @media (min-width: 1900px) {
+    .footer-main{
+        padding-inline: 9.38rem;
+    }
+
+}

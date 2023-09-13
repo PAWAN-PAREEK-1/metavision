@@ -159,3 +159,13 @@ line-height: normal;
         height: max-content;
     }
 }
+
+
+
+
+@media (min-width: 1900px) {
+    .product{
+        padding-inline: 9.38rem;
+    }
+
+}

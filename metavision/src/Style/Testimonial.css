@@ -107,3 +107,11 @@ line-height: normal;
         padding-top: 1rem;
     }
 }
+
+
+@media (min-width: 1900px) {
+    .testi{
+        padding-inline: 9.38rem;
+    }
+
+}

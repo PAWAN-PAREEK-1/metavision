@@ -243,3 +243,12 @@ line-height: normal;
   }
 
 
+  @media (min-width: 1900px) {
+    .hero{
+        padding-inline: 9.38rem;
+    }
+    .monthly{
+        right:13rem;
+    }
+
+}

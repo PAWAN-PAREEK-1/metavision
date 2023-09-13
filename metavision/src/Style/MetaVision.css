@@ -75,3 +75,12 @@ line-height: normal;
         overflow: auto;
     }
 }
+
+
+
+@media (min-width: 1900px) {
+    .meta{
+        padding-inline: 9.38rem !important;
+    }
+
+}
